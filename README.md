@@ -1,6 +1,6 @@
 # Video Mask Transfiner for High-Quality Video Instance Segmentation [ECCV 2022]
 
-## High-Quality VIS Benchmark 
+## HQ-YTVIS: High-Quality VIS Benchmark
 <div align="center">
 Youtube-VIS(YTVIS, Left column) vs. HQ-YTVIS(Ours, Right column)
 </div>
