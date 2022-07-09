@@ -1,9 +1,9 @@
 # Video Mask Transfiner for High-Quality Video Instance Segmentation [ECCV 2022]
 
 ## HQ-YTVIS Data 
-&nbsp; &nbsp; &nbsp; Left column: Youtube-VIS(YTVIS) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Right column:HQ-YTVIS(Ours)
-<img src="figures/data1_new.gif" width="830">
-Please visit xxx page for detailed description of our HQ-YTVIS benchmark.
+<center>Youtube-VIS(YTVIS, Left column) vs. HQ-YTVIS(Ours, Right column)</center>
+<img src="figures/data1_new.gif" width="1000">
+Please visit the dataset website for detailed description of our HQ-YTVIS benchmark.
 
 ## HQ-YTVIS Evaluation API
 xxxxx
