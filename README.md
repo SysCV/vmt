@@ -1,8 +1,7 @@
 # Video Mask Transfiner for High-Quality Video Instance Segmentation [ECCV 2022]
 
 ## Data
-<img src="figures/data1.gif" width="830">
-<img src="figures/data2.gif" width="830">
+<img src="figures/data1_new.gif" width="830">
 
 ## Citation
 
