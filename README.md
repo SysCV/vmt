@@ -9,6 +9,7 @@ Please visit our dataset website for detailed descriptions of using HQ-YTVIS ben
 xxxxx
 
 ## VMT Code
+<img src="figures/result_demo1.gif" width="1000"/>
 
 ### Train
 xxxxx
