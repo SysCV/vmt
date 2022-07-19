@@ -6,17 +6,19 @@ Mask annotation comparison between **Youtube-VIS** and **HQ-YTVIS**. HQ-YTVIS se
 <img src="figures/data1_new.gif" width="1000"/>
 Mask annotations in **Youtube-VIS** (Left Video) vs. Mask annotations in **HQ-YTVIS** (Right Video). Please visit our dataset website for detailed descriptions of using HQ-YTVIS benchmark.
 
+[Dataset Downloading Link](https://drive.google.com/drive/folders/1ZU8_qO8HnJ_-vvxIAn8-_kJ4xtOdkefh?usp=sharing)
+
 ## HQ-YTVIS Evaluation API
-Tube-Boundary AP evaluation
+[Install Guidance](cocoapi_hq/), [Tube-Boundary AP Usage Example](eval_hqvis.py)
 
 ## VMT Code
 <img src="figures/result_demo1.gif" width="1000"/>
 
 ### Train
-xxxxx
+TBD
 
 ### Test
-xxxx
+TBD
 
 ## Citation
 
@@ -30,4 +32,4 @@ xxxx
 ```
 
 ## Acknowledgement
-This repo is based on xxxx.
+This repo is based on [Transfiner](https://github.com/SysCV/transfiner) and [SeqFormer](https://github.com/wjf5203/SeqFormer).
