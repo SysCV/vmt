@@ -9,7 +9,7 @@ Mask annotations in **Youtube-VIS** (Left Video) vs. Mask annotations in **HQ-YT
 [Dataset Downloading Link](https://drive.google.com/drive/folders/1ZU8_qO8HnJ_-vvxIAn8-_kJ4xtOdkefh?usp=sharing)
 
 ## HQ-YTVIS Evaluation API
-[Install Guidance](cocoapi_hq/), [Tube-Boundary AP Usage Example](eval_hqvis.py)
+Please refer to our [Installation Guidance](cocoapi_hq/) and [Tube-Mask AP & Tube-Boundary AP Usage Example](eval_hqvis.py)
 
 ## VMT Code
 <img src="figures/result_demo1.gif" width="1000"/>
