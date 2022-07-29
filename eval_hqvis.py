@@ -49,6 +49,7 @@ def main(args):
     ytvos_eval(result_file, ['segm'], 'ytvis/annotations/ytvis_hq-test-new.json', False, max_dets=(100, 300, 1000))
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(' inference script')
+    parser = argparse.ArgumentParser('inference script')
+    parser.add_argument('--save-path')
     args = parser.parse_args()
     main(args)

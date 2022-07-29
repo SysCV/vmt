@@ -2,8 +2,8 @@
 
 ## HQ-YTVIS: High-Quality Video Instance Segmentation Dataset
 Mask annotation comparison between **Youtube-VIS** and **HQ-YTVIS**. HQ-YTVIS serves as a new benchmark to facilitate future development (training & evaluation) of VIS methods aiming at higher mask quality.
-<img src="figures/dataset_compare_s.png" width="1000"/>
-<img src="figures/data1_new.gif" width="1000"/>
+<img src="figures/dataset_compare_s.png" width="830"/>
+<img src="figures/data1_new.gif" width="830"/>
 Mask annotations in **Youtube-VIS** (Left Video) vs. Mask annotations in **HQ-YTVIS** (Right Video). Please visit our dataset website for detailed descriptions of using HQ-YTVIS benchmark.
 
 [Dataset Downloading Link](https://drive.google.com/drive/folders/1ZU8_qO8HnJ_-vvxIAn8-_kJ4xtOdkefh?usp=sharing)
@@ -11,8 +11,12 @@ Mask annotations in **Youtube-VIS** (Left Video) vs. Mask annotations in **HQ-YT
 ## HQ-YTVIS Evaluation API
 Please refer to our [Installation Guidance](cocoapi_hq/) and [Tube-Mask AP & Tube-Boundary AP Usage Example](eval_hqvis.py)
 
+```
+python eval_hqvis.py --save-path prediction_results.json
+```
+
 ## VMT Code
-<img src="figures/result_demo1.gif" width="1000"/>
+<img src="figures/result_demo1.gif" width="830"/>
 
 ### Train
 TBD
