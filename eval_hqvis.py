@@ -35,8 +35,8 @@ def ytvos_eval(result_file, result_types, ytvos, get_boundary_out, max_dets=(100
 def main(args):
     result_file = args.save_path
     ytvos = 'ytvos'
-    ytvos_eval(result_file, ['boundary'], 'ytvis/annotations/ytvis_hq-test-new.json', True, max_dets=(100, 300, 1000))
-    ytvos_eval(result_file, ['segm'], 'ytvis/annotations/ytvis_hq-test-new.json', False, max_dets=(100, 300, 1000))
+    ytvos_eval(result_file, ['boundary'], 'ytvis/annotations/ytvis_hq-test.json', True, max_dets=(100, 300, 1000))
+    ytvos_eval(result_file, ['segm'], 'ytvis/annotations/ytvis_hq-test.json', False, max_dets=(100, 300, 1000))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser('inference script')
