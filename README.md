@@ -3,7 +3,7 @@ Video Mask Transfiner for High-Quality Video Instance Segmentation [ECCV 2022]
 
 [[Project Page](https://www.vis.xyz/pub/vmt/) | [Dataset Page](https://www.vis.xyz/data/hqvis/) | [Paper](https://arxiv.org/abs/2207.14012)\]
 
-> [**Detecting Twenty-thousand Classes using Image-level Supervision**](http://arxiv.org/abs/2201.02605),               
+> [**Video Mask Transfiner for High-Quality Video Instance Segmentation**](http://arxiv.org/abs/2201.02605),               
 > Lei Ke, Henghui Ding, Martin Danelljan, Yu-Wing Tai, Chi-Keung Tang, Fisher Yu             
 > *ECCV 2022 ([arXiv 2207.14012](https://arxiv.org/abs/2207.14012))*         
 
