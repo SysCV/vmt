@@ -3,7 +3,7 @@ Video Mask Transfiner for High-Quality Video Instance Segmentation [ECCV 2022]
 
 [[Project Page](https://www.vis.xyz/pub/vmt/) | [Dataset Page](https://www.vis.xyz/data/hqvis/) | [Paper](https://arxiv.org/abs/2207.14012)\]
 
-> [**Video Mask Transfiner for High-Quality Video Instance Segmentation**](http://arxiv.org/abs/2201.02605),               
+> [**Video Mask Transfiner for High-Quality Video Instance Segmentation**](http://arxiv.org/abs/2207.14012),               
 > Lei Ke, Henghui Ding, Martin Danelljan, Yu-Wing Tai, Chi-Keung Tang, Fisher Yu             
 > *ECCV 2022 ([arXiv 2207.14012](https://arxiv.org/abs/2207.14012))*         
 
@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/17427852/181796696-bfe9a9dd-2d39-42a2-
 
 Mask annotations in **Youtube-VIS** (Left Video) vs. Mask annotations in **HQ-YTVIS** (Right Video). Please visit our dataset website for detailed descriptions of using HQ-YTVIS benchmark.
 
-[HQ-YTVIS Annotation Downloading](https://drive.google.com/drive/folders/1ZU8_qO8HnJ_-vvxIAn8-_kJ4xtOdkefh?usp=sharing)
+**Dataset Download:** [HQ-YTVIS Annotation Link](https://drive.google.com/drive/folders/1ZU8_qO8HnJ_-vvxIAn8-_kJ4xtOdkefh?usp=sharing)
 
 
 ## HQ-YTVIS Evaluation API
