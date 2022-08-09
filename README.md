@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/17427852/181796696-bfe9a9dd-2d39-42a2-
 
 Mask annotations in **Youtube-VIS** (Left Video) vs. Mask annotations in **HQ-YTVIS** (Right Video). Please visit our dataset website for detailed descriptions of using HQ-YTVIS benchmark.
 
-[Dataset Downloading Link](https://drive.google.com/drive/folders/1ZU8_qO8HnJ_-vvxIAn8-_kJ4xtOdkefh?usp=sharing)
+[HQ-YTVIS Annotation Downloading](https://drive.google.com/drive/folders/1ZU8_qO8HnJ_-vvxIAn8-_kJ4xtOdkefh?usp=sharing)
 
 
 ## HQ-YTVIS Evaluation API
