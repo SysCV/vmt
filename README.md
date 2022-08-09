@@ -1,4 +1,13 @@
-# Video Mask Transfiner for High-Quality Video Instance Segmentation [ECCV 2022]
+# Video Mask Transfiner
+Video Mask Transfiner for High-Quality Video Instance Segmentation [ECCV 2022]
+
+[[Project Page](https://www.vis.xyz/pub/vmt/) | [Dataset Page](https://www.vis.xyz/data/hqvis/) | [Paper](https://arxiv.org/abs/2207.14012)\]
+
+> [**Detecting Twenty-thousand Classes using Image-level Supervision**](http://arxiv.org/abs/2201.02605),               
+> Lei Ke, Henghui Ding, Martin Danelljan, Yu-Wing Tai, Chi-Keung Tang, Fisher Yu             
+> *ECCV 2022 ([arXiv 2207.14012](https://arxiv.org/abs/2207.14012))*         
+
+<p align="center"> <img src='figures/vmt_banner_img.png' align="center" height="300px"> </p>
 
 ## HQ-YTVIS: High-Quality Video Instance Segmentation Dataset
 Mask annotation comparison between **Youtube-VIS** and **HQ-YTVIS**. HQ-YTVIS serves as a new benchmark to facilitate future development (training & evaluation) of VIS methods aiming at higher mask quality.
@@ -24,11 +33,7 @@ python eval_hqvis.py --save-path prediction_results.json
 
 https://user-images.githubusercontent.com/17427852/181796768-3e79ee74-2465-4af8-ba89-b5c837098e00.mp4
 
-### Train
-TBD
-
-### Test
-TBD
+Code for VMT is coming soon (before ECCV happens).
 
 ## Citation
 
