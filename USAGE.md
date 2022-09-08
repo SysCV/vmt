@@ -1,5 +1,5 @@
 ### Pretrained Models
----------------
+
 Download the pretrained models from the Model zoo table: 
 ```
   mkdir pretrained_model
@@ -7,7 +7,7 @@ Download the pretrained models from the Model zoo table:
 ```
 
 ### Inference & Evaluation on HQ-YTVIS
----------------
+
 Refer to our [scripts folder](./scripts) for more commands:
 
 Evaluating on HQ-YTVIS test:
@@ -20,7 +20,7 @@ bash scripts/eval_r101_test.sh
 ```
 
 ### Results Visualization
----------------
+
 ```
 bash scripts/eval_swin_val_vis.sh
 ```

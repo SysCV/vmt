@@ -31,18 +31,16 @@ python eval_hqvis.py --save-path prediction_results.json
 ## VMT Code
 
 ### Install
----------------
 
 Please refer to [INSTALL.md](INSTALL.md) for installation instructions.
 
-https://user-images.githubusercontent.com/17427852/181796768-3e79ee74-2465-4af8-ba89-b5c837098e00.mp4
-
 ### Usages
----------------
+
 Please refer to [USAGE.md](USAGE.md) for dataset preparation and detailed running (including testing, visualization, etc.) instructions.
 
+https://user-images.githubusercontent.com/17427852/181796768-3e79ee74-2465-4af8-ba89-b5c837098e00.mp4
+
 ### Model zoo on HQ-YTVIS model
----------------
 
 Train on [HQ-YTVIS](https://www.vis.xyz/data/hqvis/) **train** set and COCO, evaluate on [HQ-YTVIS](https://www.vis.xyz/data/hqvis/) **test** set.       
 
@@ -52,8 +50,8 @@ Train on [HQ-YTVIS](https://www.vis.xyz/data/hqvis/) **train** set and COCO, eva
 | VMT_r101 | 33.0 | 29.3 | 33.3 | 51.6 | 55.8 | [weight](https://drive.google.com/file/d/1TQs_meDaomLz56xCjAZKT1BNtS3K3sla/view?usp=sharing) |
 | VMT_swin_L | 44.8 | 43.4 | 43.0 | 64.8 | 70.1 | [weight](https://drive.google.com/file/d/13cDni9olYd6-xdURQMWstsW0VLbkgIKt/view?usp=sharing) |
 
-###Citation
----------------
+### Citation
+
 ```bibtex
 @inproceedings{vmt,
     title = {Video Mask Transfiner for High-Quality Video Instance Segmentation},
