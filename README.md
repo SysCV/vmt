@@ -29,11 +29,26 @@ python eval_hqvis.py --save-path prediction_results.json
 ```
 
 ## VMT Code
-<!-- <img src="figures/result_demo1.gif" width="830"/> -->
+---------------
+### Install
+Please refer to [INSTALL.md](INSTALL.md) for installation instructions.
 
 https://user-images.githubusercontent.com/17427852/181796768-3e79ee74-2465-4af8-ba89-b5c837098e00.mp4
 
-Code for VMT is coming soon (before ECCV happens).
+### Usages
+Please refer to [USAGE.md](USAGE.md) for dataset preparation and detailed running (including testing, visualization, etc.) instructions.
+
+### Model zoo
+
+#### HQ-YTVIS model
+
+Train on [HQ-YTVIS](https://www.vis.xyz/data/hqvis/) **train** set and COCO, evaluate on [HQ-YTVIS](https://www.vis.xyz/data/hqvis/) **test** set.       
+
+| Model                                                        | AP<sup>B</sup>   | AP<sup>B</sup><sub>75</sub> | AR<sup>B</sup><sub>1</sub> | AP<sup>M</sup>  | AR<sup>M</sup><sub>75</sub> | download                                                    |
+| ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- | ------------------------------------------------------------ |
+| VMT_r50 | 30.7 | 24.2 | 31.5 | 50.5 | 54.5 | [weight](https://drive.google.com/file/d/1e9hKCC-pAGB-wSO0_qyUNoEe-5XzRocz/view?usp=sharing) |
+| VMT_r101 | 33.0 | 29.3 | 33.3 | 51.6 | 55.8 | [weight](https://drive.google.com/file/d/1TQs_meDaomLz56xCjAZKT1BNtS3K3sla/view?usp=sharing) |
+| VMT_swin_L | 44.8 | 43.4 | 43.0 | 64.8 | 70.1 | [weight](https://drive.google.com/file/d/13cDni9olYd6-xdURQMWstsW0VLbkgIKt/view?usp=sharing) |
 
 ## Citation
 
@@ -44,7 +59,14 @@ Code for VMT is coming soon (before ECCV happens).
     booktitle = {European Conference on Computer Vision (ECCV)},
     year = {2022}
 }
+
+@inproceedings{transfiner,
+    title={Mask Transfiner for High-Quality Instance Segmentation},
+    author={Ke, Lei and Danelljan, Martin and Li, Xia and Tai, Yu-Wing and Tang, Chi-Keung and Yu, Fisher},
+    booktitle = {CVPR},
+    year = {2022}
+} 
 ```
 
 ## Acknowledgement
-This repo is based on [Mask Transfiner](https://github.com/SysCV/transfiner) and [SeqFormer](https://github.com/wjf5203/SeqFormer).
+We thank [Mask Transfiner](https://github.com/SysCV/transfiner) and [SeqFormer](https://github.com/wjf5203/SeqFormer) for their open source codes.
