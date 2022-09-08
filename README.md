@@ -32,7 +32,7 @@ python eval_hqvis.py --save-path prediction_results.json
 
 ### Install
 
-Please refer to [INSTALL.md](INSTALL.md) for installation instructions.
+Please refer to [INSTALL.md](INSTALL.md) for installation instructions and dataset preparation.
 
 ### Usages
 
@@ -43,6 +43,10 @@ https://user-images.githubusercontent.com/17427852/181796768-3e79ee74-2465-4af8-
 ### Model zoo on HQ-YTVIS model
 
 Train on [HQ-YTVIS](https://www.vis.xyz/data/hqvis/) **train** set and COCO, evaluate on [HQ-YTVIS](https://www.vis.xyz/data/hqvis/) **test** set.       
+
+AP<sup>B</sup>: Tube-Boundary AP (proposed in Eq.1 of the paper)
+
+AP<sup>M</sup>: Tube-Mask AP (proposed in YTVIS paper)
 
 | Model                                                        | AP<sup>B</sup>   | AP<sup>B</sup><sub>75</sub> | AR<sup>B</sup><sub>1</sub> | AP<sup>M</sup>  | AR<sup>M</sup><sub>75</sub> | download                                                    |
 | ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- | ------------------------------------------------------------ |
