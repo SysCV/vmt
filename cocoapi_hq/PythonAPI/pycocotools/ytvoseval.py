@@ -195,7 +195,7 @@ class YTVOSeval:
             dt=dt[0:p.maxDets[-1]]
 
         if p.iouType == 'segm':
-            g = [g['segmentations_refined'] for g in gt]
+            g = [g['segmentations'] for g in gt]
             d = [d['segmentations'] for d in dt]
         elif p.iouType == 'bbox':
             g = [g['bboxes'] for g in gt]
@@ -244,7 +244,7 @@ class YTVOSeval:
 
         assert p.iouType == 'boundary'
 
-        g_m = [g['segmentations_refined'] for g in gt]
+        g_m = [g['segmentations'] for g in gt]
         d_m = [d['segmentations'] for d in dt]
 
         g_b = [g['boundary_list'] for g in gt]
